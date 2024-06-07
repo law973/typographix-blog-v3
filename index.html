@@ -3,12 +3,109 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Template</title>
+	<title>Typographix Blog</title>
 	<link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="stylesheet" href="scrollbar.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!-- Sticky Navbar -->
+	<nav id="navbar">
+		<div class="nav-left">
+			<h1 id="logo">Typographix</h1>
+		</div>
+		<div class="nav-right">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Contact</a>
+		</div>
+	</nav>
+
+	<!-- Main Content -->
+	<main class="main">
+		<!-- Skeleton for Main Featured Article -->
+		<div class="skeleton featured-article-skeleton">
+			<div class="skeleton-image"></div>
+			<div class="skeleton-line skeleton-line--large"></div>
+			<div class="skeleton-line"></div>
+			<div class="skeleton-line"></div>
+			<div class="skeleton-line"></div>
+		</div>
+
+		<!-- Skeleton for Smaller Articles -->
+		<div class="smaller-articles">
+			<div class="skeleton article-skeleton">
+				<div class="skeleton-image"></div>
+				<div class="skeleton-line skeleton-line--large"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line"></div>
+			</div>
+			<div class="skeleton article-skeleton">
+				<div class="skeleton-image"></div>
+				<div class="skeleton-line skeleton-line--large"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line"></div>
+			</div>
+			<div class="skeleton article-skeleton">
+				<div class="skeleton-image"></div>
+				<div class="skeleton-line skeleton-line--large"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line"></div>
+				<div class="skeleton-line"></div>
+			</div>
+		</div>
+
+
+		<!-- Main Featured Article -->
+		<div class="featured-article hidden">
+			<img src="https://unsplash.com/photos/_RBcxo9AU-U/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8bmF0dXJlfGVufDB8fHx8MTcxNTc5NDk3MXww&force=true&w=1920" alt="Grassy Field at Sunset">
+			<h1>How Does Nature Impact Our Wellbeing?</h1>
+			<p>Modern life often leads to stress, anxiety, and a host of other mental health issues. In the quest for wellbeing, many turn to medication or therapy. However, a simpler solution may lie right outside our door – nature. There's a growing body of evidence that suggests...</p>
+			<a href="article1.html">Read More</a>
+		</div>
+
+		<!-- Three Smaller Articles -->
+		<div class="smaller-articles">
+			<!-- Article 2 -->
+			<div class="article hidden">
+				<img src="https://unsplash.com/photos/CE_1ZBQ__Ns/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fGdpcmwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3MTU4MTMxODB8MA&force=true&w=1920" alt="Woman standing on road">
+				<h2>The Importance of Self-Care</h2>
+				<p>In today's fast-paced world, it's easy to get caught up in the hustle and bustle of everyday life. Between work, family, and other obligations, taking care of ourselves often takes a backseat. However, neglecting our own needs can have serious consequences...</p>
+			<a href="article2.html">Read More</a>
+			</div>
+
+			<!-- Article 3 -->
+			<div class="article hidden">
+				<img src="https://unsplash.com/photos/YsPnamiHdmI/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8Z2FtZXN8ZW58MHx8fHwxNzE1ODEzNTcyfDA&force=true&w=1920" alt="Game controller">
+				<h2>The Best PlayStation Games Of 2023</h2>
+				<p>2023 has been an incredible year for PlayStation gamers, with a diverse range of titles that cater to all tastes and preferences. From groundbreaking new IPs to highly anticipated sequels, the PlayStation ecosystem continues to thrive, offering unforgettable...</p>
+			<a href="article3.html">Read More</a>
+			</div>
+
+			<!-- Article 4 -->
+			<div class="article hidden">
+				<img src="https://unsplash.com/photos/uIf6H1or1nE/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8bW9vbnxlbnwwfHx8fDE3MTU4MTM2MzJ8MA&force=true&w=1920" alt="Moon">
+				<h2>The Phases of the Moon Explained</h2>
+				<p>The moon, Earth's only natural satellite, has fascinated humans for millennia. Its phases, which refer to the different shapes of the moon visible from Earth, result from its orbit around our planet and the...</p>
+			<a href="article4.html">Read More</a>
+			</div>
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		<small>&copy; 2024 Typographix</small>
+		<div class="social-icons">
+			<a href="#"><i class="fa-brands fa-facebook-f" title="Facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-x-twitter" title="Twitter (X)"></i></a>
+			<a href="#"><i class="fa-brands fa-instagram" title="Instagram"></i></a>
+			<a href="#"><i class="fa-brands fa-linkedin-in" title="LinkedIn"></i></a>
+		</div>
+	</footer>
+	
 	<!-- Script -->
 	<script src="script.js"></script>
 </body>
